@@ -1,27 +1,35 @@
 # Portfolio Website
 
-My personal portfolio website built to showcase my projects, skills, and learning journey.
+Personal portfolio website showcasing my projects, skills, and learning journey.
 
 ## Features
 
 - Responsive Design
-- Projects Showcase
 - About Me Section
-- Contact Information
+- Project Showcase
+- Contact Form
+- Modern UI
 
 ## Tech Stack
 
 - Next.js
 - React
 - JavaScript
-- CSS
+- Tailwind CSS
 
-## Installation
+## Screenshots
 
-```bash
-npm install
-npm run dev
-```
+### Home Page
+
+![Home Page](home-page.png)
+
+### About Page
+
+![About Page](about-page.png)
+
+### Contact Page
+
+![Contact Page](contact-page.png)
 
 ## Author
 
