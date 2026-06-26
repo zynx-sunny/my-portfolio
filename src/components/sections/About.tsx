@@ -16,27 +16,27 @@ export default function About() {
   ];
 
   const cards = [
-    {
-      icon: <Terminal size={28} />,
-      title: "Linux & Terminal",
-      desc: "Learning Linux commands, shell scripting, networking, and system administration.",
-    },
-    {
-      icon: <Server size={28} />,
-      title: "DevOps Journey",
-      desc: "Exploring Docker, NGINX, CI/CD concepts, and deployment workflows.",
-    },
-    {
-      icon: <Cloud size={28} />,
-      title: "Cloud & Deployment",
-      desc: "Learning modern cloud infrastructure and deploying full stack applications.",
-    },
-    {
-      icon: <Code size={28} />,
-      title: "Full Stack Development",
-      desc: "Building responsive websites using Next.js, React, and modern UI design.",
-    },
-  ];
+  {
+    icon: <Terminal size={28} />,
+    title: "Linux Administration",
+    desc: "Building a strong foundation in Linux administration, shell scripting, networking, process management, and system security.",
+  },
+  {
+    icon: <Server size={28} />,
+    title: "AWS & Cloud Computing",
+    desc: "Learning AWS services including EC2, IAM, S3, VPC, Route 53, CloudFront, and cloud architecture fundamentals.",
+  },
+  {
+    icon: <Cloud size={28} />,
+    title: "Docker & CI/CD",
+    desc: "Containerizing applications with Docker and learning CI/CD pipelines to automate software delivery.",
+  },
+  {
+    icon: <Code size={28} />,
+    title: "DevOps Projects",
+    desc: "Building hands-on DevOps projects focused on Linux, AWS, Docker, automation, and cloud infrastructure.",
+  },
+];
 
   return (
     <section
@@ -56,16 +56,13 @@ export default function About() {
           </p>
 
           <h2 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-            Building My Journey
+            Building My Journey Into DevOps Engineering
             <br />
-            Into DevOps & Development
+
           </h2>
 
           <p className="text-gray-400 text-lg max-w-3xl leading-relaxed">
-            Passionate developer currently learning DevOps, Linux, Docker,
-            Cloud, Networking, and Full Stack Development. I enjoy building
-            modern web experiences and understanding how scalable systems work
-            behind the scenes.
+            I am a BCA student passionate about Linux, AWS, Docker, Networking, and DevOps. I enjoy building hands-on projects while continuously improving my cloud, automation, and infrastructure skills.
           </p>
         </motion.div>
 

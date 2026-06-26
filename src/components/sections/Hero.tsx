@@ -5,7 +5,16 @@ import { motion } from "framer-motion";
 //import App from "@/components/band/App";
 import TextType from "@/components/band/TextType";
 
-const skills = ["Linux", "Docker", "NGINX", "Java", "Networking"];
+const skills = [
+  "Linux",
+  "Git",
+  "GitHub",
+  "AWS",
+  "Docker",
+  "Shell Scripting",
+  "Networking",
+  "CI/CD",
+];
 
 type HeroProps = {
   showApp: boolean;
@@ -92,7 +101,7 @@ export default function Hero({ showApp }: HeroProps) {
               textTransform: "uppercase",
             }}
           >
-            ✦ Available for work
+            ✦ Open to DevOps Internships
           </span>
         </motion.div>
 
@@ -162,13 +171,17 @@ export default function Hero({ showApp }: HeroProps) {
             }}
           >
             <TextType
-              text={["Linux Enthusiast", "Docker Learner", "Aspiring DevOps Engineer"]}
-              typingSpeed={75}
-              pauseDuration={1500}
-              showCursor
-              cursorCharacter="_"
-              deletingSpeed={50}
-              cursorBlinkDuration={0.5}
+              text={[
+                 "Aspiring DevOps Engineer",
+                 "Linux & Cloud Enthusiast",
+                 "Learning AWS & CI/CD",
+             ]}
+               typingSpeed={75}
+               pauseDuration={1500}
+               showCursor
+               cursorCharacter="_"
+               deletingSpeed={50}
+               cursorBlinkDuration={0.5}
             />
           </span>
         </motion.div>
@@ -197,7 +210,7 @@ export default function Hero({ showApp }: HeroProps) {
               textWrap: "pretty",
             }}
           >
-            Passionate about Linux, Docker, Networking, and building scalable infrastructure systems while exploring DevOps and cloud technologies.
+            BCA student focused on Linux, Cloud Computing, AWS, Docker, and CI/CD. Passionate about building reliable infrastructure, automation, and scalable deployment workflows while continuously improving through hands-on projects.
           </p>
         </motion.div>
 
@@ -262,7 +275,9 @@ export default function Hero({ showApp }: HeroProps) {
               color: "var(--text-muted)",
             }}
           >
-            • Currently Building Myself
+            • Building Hands-on DevOps Projects
+
+            • Open to Internship Opportunities
           </span>
 
           <span
@@ -272,7 +287,6 @@ export default function Hero({ showApp }: HeroProps) {
               color: "var(--text-muted)",
             }}
           >
-            • See you seen.....
           </span>
         </motion.div>
       </div>

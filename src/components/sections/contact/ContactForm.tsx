@@ -43,27 +43,15 @@ const fieldVariants: Variants = {
 const socialLinks = [
   {
     title: 'Instagram',
-    user: '@instagram',
+    user: '@zynx_sunny',
     icon: FaInstagram,
     link: 'https://www.instagram.com/zynx_sunny/',
   },
   {
-    title: 'Youtube',
-    user: '@youtube',
-    icon: FaYoutube,
-    link: '',
-  },
-  {
     title: 'Github',
-    user: '@github',
+    user: '@zynx-sunny',
     icon: FaGithub,
-    link: '',
-  },
-  {
-    title: 'TikTok',
-    user: '@tiktok',
-    icon: FaTiktok,
-    link: '',
+    link: 'https://github.com/zynx-sunny',
   },
 ]
 
@@ -215,7 +203,7 @@ export default function ContactForm() {
 
         {/* LINKEDIN */} 
         <motion.a
-          href="https://www.linkedin.com/in/zynx-sunny/"
+          href="https://www.linkedin.com/in/zynx-sunny"
           target="_blank"
           rel="noopener noreferrer"
           variants={fieldVariants}
