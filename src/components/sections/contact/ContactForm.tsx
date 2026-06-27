@@ -82,7 +82,7 @@ export default function ContactForm() {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8, ease: smoothEase }}
       viewport={{ once: false, amount: 0.2 }}
-      className="rounded-[28px] border border-white/10 bg-white/[0.04] backdrop-blur-xl p-5 md:p-8 flex flex-col h-full"
+      className="w-full rounded-[28px] border border-white/10 bg-white/[0.04] backdrop-blur-xl p-6 md:p-10 flex flex-col"
     >
       {/* HEADER */}
       <motion.div

@@ -66,27 +66,11 @@ export default function ContactSection() {
   </motion.p>
 </motion.div>
 
-      {/* CONTENT */}
-      <div
-        className="
-        grid 
-        grid-cols-1 
-        md:grid-cols-1 
-        lg:grid-cols-[420px_1fr] 
-        gap-6 sm:gap-8 md:gap-10 lg:gap-12
-      "
-      >
-        {/* FORM */}
-        <div className="w-full">
-          <ContactForm />
-        </div>
-
-        {/* COMMENTS */}
-        <div className="w-full">
-        </div>
+      <div className="w-full max-w-5xl mx-auto">
+      <ContactForm />
       </div>
  {/* COPYRIGHT */}
-<div className="mt-20 text-center text-xs text-white/35">
+      <div className="mt-20 text-center text-xs text-white/35">
   © 2026  — All rights reserved.
 </div>
     </section>
