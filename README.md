@@ -1,6 +1,11 @@
 # Portfolio Website
 
-Personal portfolio website showcasing my projects, skills, and learning journey.
+A modern and responsive personal portfolio website built with Next.js and Tailwind CSS to showcase my projects, technical skills, certifications, and learning journey in Web Development and DevOps.
+
+
+# Live Demo
+
+Portfolio: https://my-portfolio-cfn2.vercel.app/
 
 ## Features
 
